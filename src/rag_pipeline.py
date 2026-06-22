@@ -1,9 +1,8 @@
 def build_prompt(context, question):
-
     return f"""
 You are a financial complaint analyst.
 
-Use ONLY the context below.
+Use the context below to answer the question.
 
 Context:
 {context}
@@ -11,5 +10,5 @@ Context:
 Question:
 {question}
 
-Answer clearly and concisely.
+Provide a clear, structured summary of customer issues.
 """
