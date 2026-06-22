@@ -14,7 +14,7 @@ ENV/
 
 # Data (raw files should NOT be committed)
 data/raw/
-
+data/processed/
 # OS files
 .DS_Store
 
