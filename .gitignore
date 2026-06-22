@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (raw files should NOT be committed)
+data/raw/
+
+# OS files
+.DS_Store
+
+# IDE
+.vscode/
+
+# ChromaDB / vector store (optional - depends on submission rules)
+vector_store/
+
+# logs
+*.log
