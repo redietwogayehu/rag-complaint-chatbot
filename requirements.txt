@@ -19,3 +19,10 @@ torch
 streamlit
 
 jupyter
+pandas
+numpy
+matplotlib
+sentence-transformers
+chromadb
+langchain-text-splitters
+gradio
